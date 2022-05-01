@@ -16,6 +16,12 @@ spring:
         format_sql: true
         show_sql: true
     defer-datasource-initialization: true
+
 logging:
   level:
     com.tistory.jaimemin: DEBUG
+
+jwt:
+  header: Authorization
+  secret: c2xpdmVybmluZS10ZWNoLXNwcmluZy1ib290LWp3dC10dXRvcmlhbC1zZWNyZXQtc2xpdmVybmluZS10ZWNoLXNwcmluZy1ib290LWp3dC10dXRvcmlhbC1zZWNyZXQ=
+  token-validity-in-seconds: 86400
